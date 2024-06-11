@@ -28,10 +28,7 @@
   Return the result of invoking the callback.
 */
 
-function first(arr, callback){
-  let value = callback(arr[0])
-  return value
-}
+const first = (arr, cb) => cb(arr[0]);
 
 
 // Do not edit the code below.

@@ -68,7 +68,7 @@ last(names, (lastName) => {
   Invoke the callback, passing in the product of the two numbers multiplied as the argument.
 */
 
-//Code Here
+const multiply = (num1, num2, cb) => cb(num1*num2);
 
 // Do not edit the code below.
 // Your function is called here

@@ -86,7 +86,15 @@ multiply(4, 3, function (answer) {
   If the name does not exist, invoke the callback with false as the argument.
 */
 
-//Code Here
+function contains(arr, name, cb) {
+  for (const a of arr){
+    console.log(a);
+    if(a === name){
+      return cb(true)
+    }
+    return cb(false)
+  }
+}
 
 // Do not edit the code below.
 // Your function is called here

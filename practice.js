@@ -49,7 +49,9 @@ first(names, function (firstName) {
   Return the result of invoking the callback.
 */
 
-//Code Here
+const last = (arr, cb) => {
+  cb(arr[arr.length-1])
+} 
 
 // Do not edit the code below.
 // Your function is called here
